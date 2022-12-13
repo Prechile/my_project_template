@@ -1,0 +1,41 @@
+name: flutter_project_template
+description: fluter template to begin a project with packages using Getx.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.0.0+2
+  get: ^4.6.5
+  get_storage: ^2.0.2
+  http: ^0.13.3
+  url_launcher: ^6.1.7
+  #image_picker: ^0.8.5
+  #path_provider: ^2.0.1
+  #path: ^1.6.4
+  #qr_code_scanner: ^1.0.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
